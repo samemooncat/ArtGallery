@@ -193,3 +193,19 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .categories__title{
+    padding: 30px;
+  }
+
+  .carousel{
+    overflow: scroll;
+  }
+
+  .footer {
+      align-items: flex-start;
+      flex-direction: column;
+  }
+} 
